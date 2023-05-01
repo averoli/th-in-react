@@ -5,6 +5,7 @@ import App from "./App";
 import Repeat from "./Repeat";
 import Interactivity from "./addidngInteractivity/Interactivity";
 import { Memory } from "./memory/Memory";
+import SeriesOfState from "./memory/queueing/SeriesOfState";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -12,7 +13,7 @@ root.render(
     {/* <App /> */}
     <Interactivity />
     <Memory />
-    <Memory />
+    <SeriesOfState />
     {/* <Repeat /> */}
   </React.StrictMode>
 );
