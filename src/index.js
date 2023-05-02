@@ -5,7 +5,10 @@ import App from "./App";
 import Repeat from "./Repeat";
 import Interactivity from "./addidngInteractivity/Interactivity";
 import { Memory } from "./memory/Memory";
-import SeriesOfState from "./memory/queueing/SeriesOfState";
+import SeriesOfState from "./queueing/SeriesOfState";
+import { UpdatingObject } from "./state/UpdatingObject";
+import SpreadObject from "./state/SpreadObject";
+import NestedObject from "./state/NestedObject";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -14,6 +17,9 @@ root.render(
     <Interactivity />
     <Memory />
     <SeriesOfState />
+    {/* <UpdatingObject /> */}
+    <SpreadObject />
+    <NestedObject />
     {/* <Repeat /> */}
   </React.StrictMode>
 );
