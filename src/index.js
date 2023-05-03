@@ -9,6 +9,8 @@ import SeriesOfState from "./queueing/SeriesOfState";
 import { UpdatingObject } from "./state/UpdatingObject";
 import SpreadObject from "./state/SpreadObject";
 import NestedObject from "./state/NestedObject";
+import { BucketList } from "./state/BucketList";
+import AddingArray from "./state/AddingArray";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -20,6 +22,8 @@ root.render(
     {/* <UpdatingObject /> */}
     <SpreadObject />
     <NestedObject />
+    <BucketList />
+    <AddingArray />
     {/* <Repeat /> */}
   </React.StrictMode>
 );
