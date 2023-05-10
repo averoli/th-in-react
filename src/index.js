@@ -12,6 +12,8 @@ import NestedObject from "./state/NestedObject";
 import { BucketList } from "./state/BucketList";
 import AddingArray from "./state/AddingArray";
 import RemovingFromArray from "./state/RemovingFromArray";
+import ShapeEditor from "./state/ShapeEditor";
+import CounterList from "./state/CounterList";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -26,6 +28,8 @@ root.render(
     <BucketList />
     <AddingArray />
     <RemovingFromArray />
+    <ShapeEditor />
+    <CounterList />
     {/* <Repeat /> */}
   </React.StrictMode>
 );
