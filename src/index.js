@@ -11,6 +11,7 @@ import SpreadObject from "./state/SpreadObject";
 import NestedObject from "./state/NestedObject";
 import { BucketList } from "./state/BucketList";
 import AddingArray from "./state/AddingArray";
+import RemovingFromArray from "./state/RemovingFromArray";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -24,6 +25,7 @@ root.render(
     <NestedObject />
     <BucketList />
     <AddingArray />
+    <RemovingFromArray />
     {/* <Repeat /> */}
   </React.StrictMode>
 );
