@@ -14,6 +14,7 @@ import AddingArray from "./state/AddingArray";
 import RemovingFromArray from "./state/RemovingFromArray";
 import ShapeEditor from "./state/ShapeEditor";
 import CounterList from "./state/CounterList";
+import InsertingIntoArray from "./state/InsertingIntoArray";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -30,6 +31,7 @@ root.render(
     <RemovingFromArray />
     <ShapeEditor />
     <CounterList />
+    <InsertingIntoArray />
     {/* <Repeat /> */}
   </React.StrictMode>
 );
